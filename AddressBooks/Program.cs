@@ -31,7 +31,7 @@ namespace AddressBooks
                     break;
                 case "4":
                     AddressBooks.AddrBook.GetCustomer();
-                    AddressBooks    .AddrBook.RemovePeople();
+                    AddressBooks.AddrBook.RemovePeople();
 
                     break;
                 default:

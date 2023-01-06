@@ -69,7 +69,6 @@ namespace AddressBooks
             Console.WriteLine("ZipCode : " + person.ZipCode);
             Console.WriteLine("Phone Number: " + person.PhoneNum);
             Console.WriteLine("Email Id: " + person.EmailId);
-            Console.WriteLine("-------------------------------------------");
         }
         public static void Modify()
         {
@@ -172,6 +171,7 @@ namespace AddressBooks
             {
                 PrintCustomer(person);
             }
+           
         }
 
     }
